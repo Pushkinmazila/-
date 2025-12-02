@@ -1,0 +1,13 @@
+# Установка Go
+Сайт https://go.dev/dl/ копируй ссылку для линкус пакета go*.*.*.linux-amd64.tar.gz
+Вставляй ссылку "wget https://go.dev/dl/go1.25.5.linux-amd64.tar.gz"
+Распакуй sudo tar -C /usr/local -xzf go1.25.5.linux-amd64.tar.gz
+# Настройка переменных среды
+sudo nano ~/.profile
+В конец открывшегося файла добавим перечисленные ниже строки:
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/goproject
+export PATH=$PATH:$GOPATH/bin
+source ~/.profile
+mkdir $HOME/goproject
+# Проверь результат 
