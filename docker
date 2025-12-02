@@ -2,3 +2,7 @@
 Скачайте скрипт: curl -fsSL https://get.docker.com -o get-docker.sh  
 Запустите скрипт: sudo sh get-docker.sh 
 Добавь : apt  install docker-compose
+
+
+
+docker compose up -d
