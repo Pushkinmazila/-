@@ -1,0 +1,3 @@
+
+Скачайте скрипт: curl -fsSL https://get.docker.com -o get-docker.sh  
+Запустите скрипт: sudo sh get-docker.sh 
