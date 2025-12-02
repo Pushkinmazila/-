@@ -1,7 +1,7 @@
 Скрипт установки докера
 Скачайте скрипт: curl -fsSL https://get.docker.com -o get-docker.sh  
 Запустите скрипт: sudo sh get-docker.sh 
-Добавь : apt  install docker-compose
+Добавь : apt  install docker-compose -y
 Чекни: docker version --format '{{.Server.APIVersion}}'
 
 
